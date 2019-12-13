@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="en">
 
@@ -39,25 +42,47 @@
                             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                                 <ul class="navbar-nav">
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="index.html">Home</a>
+                                        <a class="nav-link" href="index.php">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="about.html" class="nav-link active">About</a>
+                                        <a href="about.php" class="nav-link active">About</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="services.html" class="nav-link">services</a>
+                                        <a href="services.php" class="nav-link">services</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="gallery.php" class="nav-link">gallery</a>
                                     </li>
                                  
                                     <li class="nav-item">
-                                        <a href="contact.html" class="nav-link">Contact</a>
+                                        <a href="contact.php" class="nav-link">Contact</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="afficherpanier.php" class="nav-link">PANIER</a>
                                     </li>
                                     <li class="nav-item pull-right">
+<?php
+if(isset($_SESSION["name"])) {
+?>
+
+<h6 color="green"> <a href="logout.php" tite="Logout">Welcome <?php echo $_SESSION["name"]; ?></a> <a href="logout.php" tite="Logout">Logout.</a> </h6>
+<?php
+}else {
+    
+    ?> 
+ <a href="login.php" class="nav-link">LOGIN</a>
+<?php
+}
+?>
+</li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <!-- Header part end-->
 
     <!--::breadcrumb part start::-->

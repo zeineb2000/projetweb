@@ -10,12 +10,12 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Charts</title>
+    <title>affichage</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
@@ -57,22 +57,8 @@
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li class="has-sub">
-                            <a class="js-arrow" href="#">
+                            <a class="js-arrow" href="index.html">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                                <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                    <li>
-                                        <a href="index.html">Dashboard 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="index2.html">Dashboard 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="index3.html">Dashboard 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="index4.html">Dashboard 4</a>
-                                    </li>
-                                </ul>
                             
                         </li>
                         <li>
@@ -83,20 +69,19 @@
                             <a href="table.html">
                                 <i class="fas fa-table"></i>Tables</a>
                         </li>
-                        <li>
-                            <a href="produit.html">
-                                <i class="far fa-check-square"></i>Produit</a>
-                        </li>
+                        
                         <li>
                             <a href="calendar.html">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
                         <li>
+                            <a href="produit.html">
+                                <i class="fas fa-calendar-alt"></i>produit</a>
+                        </li>
+                        <li>
                             <a href="affproduit.html">
                                 <i class="fas fa-calendar-alt"></i>affichage</a>
                         </li>
-                        
-                       
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Pages</a>
@@ -112,8 +97,7 @@
                                 </li>
                             </ul>
                         </li>
-                       
-                </div>
+                               </div>
             </nav>
         </header>
         <!-- END HEADER MOBILE-->
@@ -131,9 +115,10 @@
                         <li class="has-sub">
                             <a class="js-arrow" href="index.html">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                                
+                            
+                            </ul>
                         </li>
-                        <li class="active">
+                        <li>
                             <a href="chart.html">
                                 <i class="fas fa-chart-bar"></i>Charts</a>
                         </li>
@@ -146,14 +131,7 @@
                             <a href="calendar.html">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
-                        <li>
-                            <a href="produit.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
-                        <li>
-                            <a href="affproduit.html">
-                                <i class="fas fa-calendar-alt"></i>affichage</a>
-                        </li>
+                       
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Pages</a>
@@ -195,7 +173,7 @@
                                         <span class="quantity">0</span>
                                         <div class="mess-dropdown js-dropdown">
                                             <div class="mess__title">
-                                                <p>You have 0  messages</p>
+                                                <p>You have 0 messages</p>
                                             </div>
                                             <div class="mess__item">
                                                 <div class="image img-cir img-40">
@@ -227,7 +205,7 @@
                                         <span class="quantity">0</span>
                                         <div class="email-dropdown js-dropdown">
                                             <div class="email__title">
-                                                <p>You have 0  Emails</p>
+                                                <p>You have 0 Emails</p>
                                             </div>
                                             <div class="email__item">
                                                 <div class="image img-cir img-40">
@@ -320,7 +298,7 @@
                                                     <h5 class="name">
                                                         <a href="#">W.B.H</a>
                                                     </h5>
-                                                    <span class="email">mohamed.hagui@esprit.tn</span>
+                                                    <span class="email"></span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -349,7 +327,7 @@
                     </div>
                 </div>
             </header>
-            <!-- END HEADER DESKTOP-->
+            <!-- HEADER DESKTOP-->
 
             <!-- MAIN CONTENT-->
             <div class="main-content">
@@ -357,45 +335,122 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Yearly Sales</h3>
-                                        <canvas id="sales-chart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Team Commits</h3>
-                                        <canvas id="team-chart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Bar chart</h3>
-                                        <canvas id="barChart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-                       
-                        <div class="row">
-                            <div class="col-md-12">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END MAIN CONTENT-->
-        </div>
-        <!-- END PAGE CONTAINER-->
+                                <div class="card">
+                                    <div class="card-header">Ajouter Produit</div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h3 class="text-center title-2">produit</h3>
+                                        </div>
+                                        <hr>
+                                        <form action="" method="post" novalidate="novalidate">
+                                            <div class="form-group">
+                                                <label for="cc-payment" class="control-label mb-1">Identifiant</label>
+                                                <input id="cc-pament" name="cc-payment" type="text" class="form-control" aria-required="true" aria-invalid="false" value="...">
+                                            </div>
+                                            <div class="form-group has-success">
+                                                <label for="cc-name" class="control-label mb-1">Age</label>
+                                                <input id="cc-name" name="cc-name" type="text" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card"
+                                                    autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name-error">
+                                                <span class="help-block field-validation-valid" data-valmsg-for="cc-name" data-valmsg-replace="true"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="cc-number" class="control-label mb-1">type</label>
+                                                <input id="cc-number" name="cc-number" type="tel" class="form-control cc-number identified visa" value="" data-val="true"
+                                                    data-val-required="Please enter the card number" data-val-cc-number="Please enter a valid card number"
+                                                    autocomplete="cc-number">
+                                                <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
+                                            </div>
+                                            
 
-    </div>
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label class=" form-control-label">Sexe :</label>
+                                                </div>
+                                                <div class="col col-md-3">
+                                                    <div class="form-check-inline form-check">
+                                                        <label for="inline-radio1" class="form-check-label ">
+                                                            <input type="radio" id="inline-radio1" name="inline-radios" value="option1" class="form-check-input">M
+                                                        </label>
+                                                        &nbsp;
+
+                                                        <label for="inline-radio2" class="form-check-label ">
+                                                            <input type="radio" id="inline-radio2" name="inline-radios" value="option2" class="form-check-input">F
+                                                        </label>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label for="Pets :" class=" form-control-label">Pets</label>
+                                                </div>
+                                                <div class="col-12 col-md-9">
+                                                    <select name="Pets" id="Pets" class="form-control">
+                                                        <option value="0">Choix</option>
+                                                        <option value="1">Dogs</option>
+                                                        <option value="2">Cats</option>
+                                                        <option value="3">Autre</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label for="multiple-select" class=" form-control-label">pets Race</label>
+                                                </div>
+                                                <div class="col col-md-9">
+                                                    <select name="multiple-select" id="multiple-select" multiple="" class="form-control">
+                                                        <option value="1">berger</option>
+                                                        <option value="2">pitbull</option>
+                                                        <option value="3">kangal</option>
+                                                        <option value="4">boxer</option>
+                                                        <option value="5">haskey</option>
+                                                        <option value="6">Turkish cat</option>
+                                                        <option value="7">little cat</option>
+                                                        <option value="8">Big cats</option>
+                                                        <option value="9">monkey</option>
+                                                        <option value="10">oiseaux</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row form-group">
+                                                <div class="col col-md-12">
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon">
+                                                            <i class="fa fa-euro"></i>
+                                                        </div>
+                                                        <input type="text" id="input3-group1" name="input3-group1" placeholder=".." class="form-control">
+                                                        <div class="input-group-addon">.00</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                   
+                                            <div class="row form-group">
+                                                <div class="col col-md-3">
+                                                    <label for="file-multiple-input" class=" form-control-label">Images</label>
+                                                </div>
+                                                <div class="col-12 col-md-9">
+                                                    <input type="file" id="file-multiple-input" name="file-multiple-input" multiple="" class="form-control-file">
+                                                </div>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button type="submit" class="btn btn-success btn-sm">
+                                                    <i class="fa fa-dot-circle-o"></i> modifier
+                                                </button>
+                                                <button type="reset" class="btn btn-danger btn-sm">
+                                                    <i class="fa fa-ban"></i> supprimer
+                                                </button>
+                                            </div>
+                                        </div>
+                                            </div>
+                                            
+                                        </form>
+                                    </div>
+                                </div>
+                  </div>
+                  
+                            
+                            
 
     <!-- Jquery JS-->
     <script src="vendor/jquery-3.2.1.min.js"></script>

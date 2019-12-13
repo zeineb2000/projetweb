@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +11,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Charts</title>
+    <title>Clietes</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -39,90 +40,50 @@
     <div class="page-wrapper">
         <!-- HEADER MOBILE-->
         <header class="header-mobile d-block d-lg-none">
-            <div class="header-mobile__bar">
-                <div class="container-fluid">
-                    <div class="header-mobile-inner">
-                        <a class="logo" href="index.html">
-                            <img src="images/icon/logo.png" alt="CoolAdmin" />
-                        </a>
-                        <button class="hamburger hamburger--slider" type="button">
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
-                            </span>
-                        </button>
+                <div class="header-mobile__bar">
+                    <div class="container-fluid">
+                        <div class="header-mobile-inner">
+                            <a class="logo" href="index.html">
+                                <img src="images/icon/goombas.jpg" alt="goombas" />
+                            </a>
+                            <button class="hamburger hamburger--slider" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <nav class="navbar-mobile">
-                <div class="container-fluid">
-                    <ul class="navbar-mobile__list list-unstyled">
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                                <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                    <li>
-                                        <a href="index.html">Dashboard 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="index2.html">Dashboard 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="index3.html">Dashboard 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="index4.html">Dashboard 4</a>
-                                    </li>
-                                </ul>
-                            
-                        </li>
-                        <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
-                        </li>
-                        <li>
-                            <a href="table.html">
-                                <i class="fas fa-table"></i>Tables</a>
-                        </li>
-                        <li>
-                            <a href="produit.html">
-                                <i class="far fa-check-square"></i>Produit</a>
-                        </li>
-                        <li>
-                            <a href="calendar.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
-                        <li>
-                            <a href="affproduit.html">
-                                <i class="fas fa-calendar-alt"></i>affichage</a>
-                        </li>
-                        
-                       
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-copy"></i>Pages</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                <li>
-                                    <a href="login.html">Login</a>
-                                </li>
-                                <li>
-                                    <a href="register.html">Register</a>
-                                </li>
-                                <li>
-                                    <a href="forget-pass.html">Forget Password</a>
-                                </li>
-                            </ul>
-                        </li>
-                       
-                </div>
-            </nav>
-        </header>
+                <nav class="navbar-mobile">
+                    <div class="container-fluid">
+                        <ul class="navbar-mobile__list list-unstyled">
+                            <li class="has-sub">
+                                    <a class="js-arrow" href="index.html">
+                                            <i class="fas fa-tachometer-alt"></i>Menu</a>
+                                        </li>
+                                        <li>
+                                          <a href="table.html">
+                                            <i class="fas fa-table"></i>Clients</a>
+                                        </li>
+                                        <li>
+                                          <a href="calendar.html">
+                                            <i class="fas fa-calendar-alt"></i>Calendrier</a>
+                                        </li>
+                                        <li class="has-sub">
+                                          <a class="js-arrow" href="commandes.html">
+                                            <i class="fas fa-desktop"></i>Commandes</a>
+                                        </li>
+                                      </ul>
+                    </div>
+                </nav>
+            </header>
         <!-- END HEADER MOBILE-->
 
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="#">
-                    <img src="images/icon/logo.png" alt="Cool Admin" />
+                        <img src="images/icon/goombas.jpg" alt="goombas" />
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -130,46 +91,27 @@
                     <ul class="list-unstyled navbar__list">
                         <li class="has-sub">
                             <a class="js-arrow" href="index.html">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                                
-                        </li>
-                        <li class="active">
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                                <i class="fas fa-tachometer-alt"></i>Menu</a>
                         </li>
                         <li>
                             <a href="table.html">
-                                <i class="fas fa-table"></i>Tables</a>
+                                <i class="fas fa-table"></i>Clientes</a>
                         </li>
-                        
                         <li>
                             <a href="calendar.html">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
-                        <li>
-                            <a href="produit.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
-                        <li>
-                            <a href="affproduit.html">
-                                <i class="fas fa-calendar-alt"></i>affichage</a>
-                        </li>
                         <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-copy"></i>Pages</a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                <li>
-                                    <a href="login.html">Login</a>
-                                </li>
-                                <li>
-                                    <a href="register.html">Register</a>
-                                </li>
-                                <li>
-                                    <a href="forget-pass.html">Forget Password</a>
-                                </li>
-                            </ul>
+                            <a class="js-arrow" href="commandes.html">
+                                <i class="fas fa-desktop"></i>Commandes</a>
+                            
                         </li>
-                        
+                          <li class="has-sub">
+                            <a class="js-arrow" href="afficherLivraison.php">
+                                <i class="fas fa-desktop"></i>Livraison</a>
+                            
+                        </li>
+                    </ul>
                 </nav>
             </div>
         </aside>
@@ -192,29 +134,29 @@
                                 <div class="noti-wrap">
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-comment-more"></i>
-                                        <span class="quantity">0</span>
+                                        <span class="quantity">1</span>
                                         <div class="mess-dropdown js-dropdown">
                                             <div class="mess__title">
-                                                <p>You have 0  messages</p>
+                                                <p>You have 2 news message</p>
                                             </div>
                                             <div class="mess__item">
                                                 <div class="image img-cir img-40">
-                                                    <img src="" alt="" />
+                                                    <img src="images/icon/avatar-06.jpg" alt="Michelle Moreno" />
                                                 </div>
                                                 <div class="content">
-                                                    <h6></h6>
-                                                    <p></p>
-                                                    <span class="time"></span>
+                                                    <h6>Michelle Moreno</h6>
+                                                    <p>Have sent a photo</p>
+                                                    <span class="time">3 min ago</span>
                                                 </div>
                                             </div>
                                             <div class="mess__item">
                                                 <div class="image img-cir img-40">
-                                                    <img src="" alt="" />
+                                                    <img src="images/icon/avatar-04.jpg" alt="Diane Myers" />
                                                 </div>
                                                 <div class="content">
-                                                    <h6></h6>
-                                                    <p></p>
-                                                    <span class="time"></span>
+                                                    <h6>Diane Myers</h6>
+                                                    <p>You are now connected on message</p>
+                                                    <span class="time">Yesterday</span>
                                                 </div>
                                             </div>
                                             <div class="mess__footer">
@@ -224,36 +166,36 @@
                                     </div>
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-email"></i>
-                                        <span class="quantity">0</span>
+                                        <span class="quantity">1</span>
                                         <div class="email-dropdown js-dropdown">
                                             <div class="email__title">
-                                                <p>You have 0  Emails</p>
+                                                <p>You have 3 New Emails</p>
                                             </div>
                                             <div class="email__item">
                                                 <div class="image img-cir img-40">
-                                                    <img src="" alt="" />
+                                                    <img src="images/icon/avatar-06.jpg" alt="Cynthia Harvey" />
                                                 </div>
                                                 <div class="content">
-                                                    <p></p>
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <div class="email__item">
-                                                <div class="image img-cir img-40">
-                                                    <img src="" alt="" />
-                                                </div>
-                                                <div class="content">
-                                                    <p></p>
-                                                    <span></span>
+                                                    <p>Meeting about new dashboard...</p>
+                                                    <span>Cynthia Harvey, 3 min ago</span>
                                                 </div>
                                             </div>
                                             <div class="email__item">
                                                 <div class="image img-cir img-40">
-                                                    <img src="" alt="" />
+                                                    <img src="images/icon/avatar-05.jpg" alt="Cynthia Harvey" />
                                                 </div>
                                                 <div class="content">
-                                                    <p></p>
-                                                    <span></span>
+                                                    <p>Meeting about new dashboard...</p>
+                                                    <span>Cynthia Harvey, Yesterday</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/avatar-04.jpg" alt="Cynthia Harvey" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new dashboard...</p>
+                                                    <span>Cynthia Harvey, April 12,,2018</span>
                                                 </div>
                                             </div>
                                             <div class="email__footer">
@@ -263,18 +205,18 @@
                                     </div>
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-notifications"></i>
-                                        <span class="quantity">0</span>
+                                        <span class="quantity">3</span>
                                         <div class="notifi-dropdown js-dropdown">
                                             <div class="notifi__title">
-                                                <p>You have 0 Notifications</p>
+                                                <p>You have 3 Notifications</p>
                                             </div>
                                             <div class="notifi__item">
                                                 <div class="bg-c1 img-cir img-40">
                                                     <i class="zmdi zmdi-email-open"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <p></p>
-                                                    <span class="date"></span>
+                                                    <p>You got a email notification</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
                                                 </div>
                                             </div>
                                             <div class="notifi__item">
@@ -282,8 +224,8 @@
                                                     <i class="zmdi zmdi-account-box"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <p></p>
-                                                    <span class="date"></span>
+                                                    <p>Your account has been blocked</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
                                                 </div>
                                             </div>
                                             <div class="notifi__item">
@@ -291,8 +233,8 @@
                                                     <i class="zmdi zmdi-file-text"></i>
                                                 </div>
                                                 <div class="content">
-                                                    <p></p>
-                                                    <span class="date"></span>
+                                                    <p>You got a new file</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
                                                 </div>
                                             </div>
                                             <div class="notifi__footer">
@@ -304,23 +246,23 @@
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="images/icon/avatar-01.png" alt="W.B.H" />
+                                                <img src="images/icon/admin.jpg" alt="admin" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">W.B.H</a>
+                                            <a class="js-acc-btn" href="#">john doe</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="images/icon/avatar-01.png" alt="W.B.H" />
+                                                        <img src="images/icon/admin.jpg" alt="John Doe" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">W.B.H</a>
+                                                        <a href="#">john doe</a>
                                                     </h5>
-                                                    <span class="email">mohamed.hagui@esprit.tn</span>
+                                                    <span class="email">johndoe@example.com</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -338,7 +280,7 @@
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__footer">
-                                                <a href="#">
+                                                <a href="login.html">
                                                     <i class="zmdi zmdi-power"></i>Logout</a>
                                             </div>
                                         </div>
@@ -350,50 +292,65 @@
                 </div>
             </header>
             <!-- END HEADER DESKTOP-->
-
+<?php
+include "../core/livraisonCrud.php";
+$liv = new livraisonCrud();
+$livListe=$liv->afficherlivraison();
+?>
             <!-- MAIN CONTENT-->
             <div class="main-content">
-                <div class="section__content section__content--p30">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Yearly Sales</h3>
-                                        <canvas id="sales-chart"></canvas>
-                                    </div>
+                    <div class="row">
+                           <div class="table-responsive table--no-card m-b-30">
+                                    <table class="table table-borderless table-striped table-earning">
+                                        <thead>
+                                            <tr>
+                                                <th>Adresse</th>
+                                                <th>Ville</th>
+                                                <th>Region</th>
+                                                <th>Numero Telephone</th>
+                                                <th>Email</th>
+                                                <th>Status</th>
+                                                
+
+                                                <th>Action</th>
+                                            </tr>
+                                                 <?PHP
+                foreach($livListe as $row){
+                    ?>
+                                            <tr>
+                                                 <td><?PHP echo $row['adresse']; ?></td>
+                        <td><?PHP echo $row['ville']; ?></td>
+                                                <td><?PHP echo $row['region']; ?></td>
+
+                        <td><?PHP echo $row['telephone']; ?></td>
+                        <td><?PHP echo $row['email']; ?></td>
+                        <td><?PHP echo $row['status']; ?></td>
+                        <td>
+                                   <!-- <input type="submit" name="edit" value="Edit">-->
+                                  <!--  <input type="hidden" name="id" value="<?PHP// echo $row['id'];  ?>">-->
+                                   <a href="modifierLivraison.php?id=<?PHP echo $row['id'];  ?>">Edit</a> 
+                      
+                            <form method="POST" action="delete.php">
+                                    <input type="submit" name="delete" value="delete">
+                                    <input type="hidden" name="id" value="<?PHP echo $row['id'];  ?>">
+                            </form> 
+                        </td>
+
+                                            </tr>
+                                            <?PHP
+                }
+                ?>
+                                        </thead>
+                                        <tbody>
+
+                                        </tbody>
+                                    </table>
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Team Commits</h3>
-                                        <canvas id="team-chart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Bar chart</h3>
-                                        <canvas id="barChart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-                       
-                        <div class="row">
-                            <div class="col-md-12">
-                                
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END MAIN CONTENT-->
+                            
+                           
         </div>
-        <!-- END PAGE CONTAINER-->
 
     </div>
 

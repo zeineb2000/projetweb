@@ -10,12 +10,12 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Charts</title>
+    <title>affichage</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
@@ -57,22 +57,8 @@
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li class="has-sub">
-                            <a class="js-arrow" href="#">
+                            <a class="js-arrow" href="index.html">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                                <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                    <li>
-                                        <a href="index.html">Dashboard 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="index2.html">Dashboard 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="index3.html">Dashboard 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="index4.html">Dashboard 4</a>
-                                    </li>
-                                </ul>
                             
                         </li>
                         <li>
@@ -83,20 +69,19 @@
                             <a href="table.html">
                                 <i class="fas fa-table"></i>Tables</a>
                         </li>
-                        <li>
-                            <a href="produit.html">
-                                <i class="far fa-check-square"></i>Produit</a>
-                        </li>
+                        
                         <li>
                             <a href="calendar.html">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
                         <li>
+                            <a href="produit.html">
+                                <i class="fas fa-calendar-alt"></i>produit</a>
+                        </li>
+                        <li>
                             <a href="affproduit.html">
                                 <i class="fas fa-calendar-alt"></i>affichage</a>
                         </li>
-                        
-                       
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Pages</a>
@@ -112,8 +97,7 @@
                                 </li>
                             </ul>
                         </li>
-                       
-                </div>
+                               </div>
             </nav>
         </header>
         <!-- END HEADER MOBILE-->
@@ -131,9 +115,10 @@
                         <li class="has-sub">
                             <a class="js-arrow" href="index.html">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                                
+                            
+                            </ul>
                         </li>
-                        <li class="active">
+                        <li>
                             <a href="chart.html">
                                 <i class="fas fa-chart-bar"></i>Charts</a>
                         </li>
@@ -146,14 +131,7 @@
                             <a href="calendar.html">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
-                        <li>
-                            <a href="produit.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
-                        <li>
-                            <a href="affproduit.html">
-                                <i class="fas fa-calendar-alt"></i>affichage</a>
-                        </li>
+                       
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Pages</a>
@@ -195,7 +173,7 @@
                                         <span class="quantity">0</span>
                                         <div class="mess-dropdown js-dropdown">
                                             <div class="mess__title">
-                                                <p>You have 0  messages</p>
+                                                <p>You have 0 messages</p>
                                             </div>
                                             <div class="mess__item">
                                                 <div class="image img-cir img-40">
@@ -227,7 +205,7 @@
                                         <span class="quantity">0</span>
                                         <div class="email-dropdown js-dropdown">
                                             <div class="email__title">
-                                                <p>You have 0  Emails</p>
+                                                <p>You have 0 Emails</p>
                                             </div>
                                             <div class="email__item">
                                                 <div class="image img-cir img-40">
@@ -320,7 +298,7 @@
                                                     <h5 class="name">
                                                         <a href="#">W.B.H</a>
                                                     </h5>
-                                                    <span class="email">mohamed.hagui@esprit.tn</span>
+                                                    <span class="email"></span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -349,53 +327,62 @@
                     </div>
                 </div>
             </header>
-            <!-- END HEADER DESKTOP-->
+            <!-- HEADER DESKTOP-->
 
             <!-- MAIN CONTENT-->
-            <div class="main-content">
-                <div class="section__content section__content--p30">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Yearly Sales</h3>
-                                        <canvas id="sales-chart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Team Commits</h3>
-                                        <canvas id="team-chart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="au-card m-b-30">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Bar chart</h3>
-                                        <canvas id="barChart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-                       
-                        <div class="row">
-                            <div class="col-md-12">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END MAIN CONTENT-->
-        </div>
-        <!-- END PAGE CONTAINER-->
+            
+<div class="card-body">
+    <div class="table-responsive">
+      <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <thead>
+          <tr>
+</br>
+</br>
+</br>
+            <th>Identifiant</th>
+            <th>Age</th>
+            <th>Type</th>
+            <th>Sexe</th>
+            <th>Pets</th>
+            <th>Petsrace</th>
+            <th>Prix</th>
+            <th>Image</th>
 
-    </div>
+          </tr>
+        </thead>
+        <tfoot>
+          <?PHP
+          include "../core/produitC.php";
+          $produit1C=new ProduitC();
+          $listeproduits=$produit1C->afficherproduits();
+          ?>
+          <?PHP
+foreach($listeproduits as $row){
+?>
+<tr>
+<td><?PHP echo $row['idP']; ?></td>
+<td><?PHP echo $row['age']; ?></td>
+<td><?PHP echo $row['type']; ?></td>
+<td><?PHP echo $row['sexe']; ?></td>
+<td><?PHP echo $row['pets']; ?></td>
+<td><?PHP echo $row['petsrace']; ?></td>
+<td><?PHP echo $row['prix']; ?></td>
+<td><?PHP echo $row['image']; ?></td>
+
+<td><a><img class="" src="<?php echo $row['image'];?>" style="width: 100px; height:100px;"></a></td>
+
+<?PHP
+}
+?>
+
+     
+
+        </tfoot>
+
+      </table>
+      </div>
+</div>                
+                            
 
     <!-- Jquery JS-->
     <script src="vendor/jquery-3.2.1.min.js"></script>
